@@ -2,7 +2,7 @@ name: Firstworkflow
 on: workflow_dispatch
 jobs:
      First_job:
-         runs on: unbuntu-latest
+         runs-on: unbuntu-latest
          steps:
             -name:print greetings
              run:echo "Hello World"
