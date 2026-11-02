@@ -3,7 +3,7 @@ on: workflow_dispatch
 jobs:
      First_job:
          runs on: unbuntu-latest
-          steps:
+         gisteps:
             -name:print greetings
              run:echo "Hello World"
             -name:Print Goodbye
