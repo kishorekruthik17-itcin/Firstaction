@@ -4,10 +4,10 @@ jobs:
      First_job:
          runs-on: unbuntu-latest
          steps:
-            -name:print greetings
-             run:echo "Hello World"
-            -name:Print Goodbye
-             run:|
-             echo "This is the first workflow"
-             echo "Succesfully executed"
+            - name: print greetings
+              run: echo "Hello World"
+            -name: print Goodbye
+              run: |
+              echo "This is the first workflow"
+              echo "Succesfully executed"
 
